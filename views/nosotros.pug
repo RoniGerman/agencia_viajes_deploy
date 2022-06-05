@@ -1,0 +1,29 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros", class="img-fluid")
+            .col-md-7 
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida lectus lectus, facilisis laoreet purus tempus ut. Curabitur accumsan massa at quam pellentesque euismod. 
+
+                p Quisque fermentum, ante ut interdum lacinia, magna arcu lobortis dolor, id egestas mauris urna quis ligula. Cras sodales libero sit amet orci aliquam pulvinar. Sed eu vestibulum lacus.
+
+                p Vestibulum gravida nunc sed lacus ultrices laoreet. Cras tincidunt non dui id scelerisque. Vivamus libero elit, sodales eu molestie ut, tincidunt nec tortor. Donec facilisis nisl non suscipit consequat. Sed cursus, lorem tempor feugiat bibendum, diam enim cursus justo, vitae venenatis ligula metus sed arcu.
+    .listado-iconos     
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-flid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Suspendisse laoreet scelerisque enim, eu interdum tellus interdum vitae. Donec vitae massa eget neque imperdiet consequat ut vitae felis. Nunc iaculis velit id justo tempus mollis.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-flid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Suspendisse laoreet scelerisque enim, eu interdum tellus interdum vitae. Donec vitae massa eget neque imperdiet consequat ut vitae felis. Nunc iaculis velit id justo tempus mollis.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-flid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Suspendisse laoreet scelerisque enim, eu interdum tellus interdum vitae. Donec vitae massa eget neque imperdiet consequat ut vitae felis. Nunc iaculis velit id justo tempus mollis.
